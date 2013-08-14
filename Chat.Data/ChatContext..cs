@@ -14,6 +14,7 @@ namespace Chat.Data
             :base("SQLSERVER_CONNECTION_STRING")
         {
         }
+		
 
         public DbSet<Message> Messages { get; set; }
         public DbSet<User> Users { get; set; }
